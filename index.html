@@ -222,13 +222,13 @@ function drawChart(navRaw){
     const t=mk('text',{x:PL-7,y:Y(tv)+3.5,'text-anchor':'end',fill:'var(--mut)',
       style:'font:10.5px inherit'});t.textContent=tv.toFixed(tickDec);svg.appendChild(t);
   }
-  // x ticks: months only (inception date already sits in the stat line above)
+  // x ticks: firsts of month only — no start label (inception sits in the stat line above)
   const seen=new Set();
   nav.forEach((p,i)=>{
     const m=p.d.slice(0,7);
-    if(i===0||(!seen.has(m)&&p.d.slice(8,10)==='01')){
+    if(!seen.has(m)&&p.d.slice(8,10)==='01'){
       seen.add(m);
-      const t=mk('text',{x:X(i),y:H-7,'text-anchor':i===0?'start':'middle',fill:'var(--mut)',
+      const t=mk('text',{x:X(i),y:H-7,'text-anchor':'middle',fill:'var(--mut)',
         style:'font:10.5px inherit'});
       t.textContent=m;svg.appendChild(t);
     }
