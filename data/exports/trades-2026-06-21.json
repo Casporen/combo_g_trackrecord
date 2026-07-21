@@ -1,0 +1,44 @@
+{
+ "account": "0xD2725bfEC6C67b3ef943550DE1d947959Ea1B05E",
+ "generated_at": "2026-06-21T12:55:04Z",
+ "schema": "combo_g_trackrecord.trades.v1",
+ "source": "derived from HL public fills (verifiable on-chain)",
+ "trades": [
+  {
+   "coin": "CHIP",
+   "direction": "SHORT",
+   "duration_h": 167.86,
+   "entry_price": 0.039353,
+   "entry_ts": "2026-05-31T00:42:29Z",
+   "exit_price": 0.030774,
+   "exit_ts": "2026-06-07T00:34:14Z",
+   "id": 1,
+   "pnl_usd": 3.236,
+   "return_pct": 21.5827
+  },
+  {
+   "coin": "ENA",
+   "direction": "SHORT",
+   "duration_h": 167.99,
+   "entry_price": 0.082992,
+   "entry_ts": "2026-06-09T13:40:11Z",
+   "exit_price": 0.087125,
+   "exit_ts": "2026-06-16T13:39:43Z",
+   "id": 2,
+   "pnl_usd": -1.3143,
+   "return_pct": -4.9957
+  },
+  {
+   "coin": "TAO",
+   "direction": "SHORT",
+   "duration_h": 9.31,
+   "entry_price": 233.47,
+   "entry_ts": "2026-06-13T08:06:59Z",
+   "exit_price": 275.83,
+   "exit_ts": "2026-06-13T17:25:24Z",
+   "id": 3,
+   "pnl_usd": -4.6422,
+   "return_pct": -18.2418
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "account": "0xD2725bfEC6C67b3ef943550DE1d947959Ea1B05E",
+ "counts": {
+  "fills": 0,
+  "funding": 2,
+  "ledger": 0
+ },
+ "day_utc": "2026-06-01",
+ "fills": [],
+ "funding": [
+  {
+   "delta": {
+    "coin": "CHIP",
+    "fundingRate": "0.000011328",
+    "nSamples": 24,
+    "szi": "-381.0",
+    "type": "funding",
+    "usdc": "0.003946"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1780272000000
+  },
+  {
+   "delta": {
+    "coin": "CHIP",
+    "fundingRate": "-0.0000321255",
+    "nSamples": 24,
+    "szi": "-381.0",
+    "type": "funding",
+    "usdc": "-0.012747"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1780358400000
+  }
+ ],
+ "generated_at": "2026-06-10T16:53:42Z",
+ "ledger_updates": [],
+ "schema": "combo_g_trackrecord.daily_export.v1",
+ "source": "api.hyperliquid.xyz/info (public, read-only)",
+ "window_ms": [
+  1780272000000,
+  1780358400000
+ ]
+}

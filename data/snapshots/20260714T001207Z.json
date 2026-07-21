@@ -1,0 +1,89 @@
+{
+ "account": "0xD2725bfEC6C67b3ef943550DE1d947959Ea1B05E",
+ "clearinghouse_state": {
+  "assetPositions": [],
+  "crossMaintenanceMarginUsed": "0.0",
+  "crossMarginSummary": {
+   "accountValue": "0.0",
+   "totalMarginUsed": "0.0",
+   "totalNtlPos": "0.0",
+   "totalRawUsd": "0.0"
+  },
+  "marginSummary": {
+   "accountValue": "0.0",
+   "totalMarginUsed": "0.0",
+   "totalNtlPos": "0.0",
+   "totalRawUsd": "0.0"
+  },
+  "time": 1783987928584,
+  "withdrawable": "0.0"
+ },
+ "equity_usd": 756.161206,
+ "generated_at": "2026-07-14T00:12:07Z",
+ "n_open_positions": 0,
+ "perp_account_value": 0.0,
+ "portfolio_alltime_tail": [
+  [
+   1783811640060,
+   "756.161206"
+  ],
+  [
+   1783865640037,
+   "756.161206"
+  ],
+  [
+   1783912440006,
+   "756.161206"
+  ],
+  [
+   1783959240023,
+   "756.161206"
+  ],
+  [
+   1783987929300,
+   "756.161206"
+  ]
+ ],
+ "schema": "combo_g_trackrecord.snapshot.v1",
+ "spot_state": {
+  "balances": [
+   {
+    "coin": "USDC",
+    "entryNtl": "0.0",
+    "hold": "0.0",
+    "token": 0,
+    "total": "756.161206"
+   },
+   {
+    "coin": "USDE",
+    "entryNtl": "0.0",
+    "hold": "0.0",
+    "token": 235,
+    "total": "0.0"
+   },
+   {
+    "coin": "USDT0",
+    "entryNtl": "0.0",
+    "hold": "0.0",
+    "token": 268,
+    "total": "0.0"
+   },
+   {
+    "coin": "USDH",
+    "entryNtl": "0.0",
+    "hold": "0.0",
+    "token": 360,
+    "total": "0.0"
+   }
+  ],
+  "tokenToAvailableAfterMaintenance": [
+   [
+    0,
+    "756.161206"
+   ]
+  ]
+ },
+ "spot_usdc_hold": 0.0,
+ "spot_usdc_total": 756.161206,
+ "unrealized_pnl": 0
+}

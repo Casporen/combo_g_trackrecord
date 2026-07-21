@@ -1,0 +1,19 @@
+{
+ "account": "0xD2725bfEC6C67b3ef943550DE1d947959Ea1B05E",
+ "counts": {
+  "fills": 0,
+  "funding": 0,
+  "ledger": 0
+ },
+ "day_utc": "2026-06-20",
+ "fills": [],
+ "funding": [],
+ "generated_at": "2026-06-21T00:10:45Z",
+ "ledger_updates": [],
+ "schema": "combo_g_trackrecord.daily_export.v1",
+ "source": "api.hyperliquid.xyz/info (public, read-only)",
+ "window_ms": [
+  1781913600000,
+  1782000000000
+ ]
+}

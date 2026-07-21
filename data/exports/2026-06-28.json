@@ -1,0 +1,194 @@
+{
+ "account": "0xD2725bfEC6C67b3ef943550DE1d947959Ea1B05E",
+ "counts": {
+  "fills": 1,
+  "funding": 13,
+  "ledger": 0
+ },
+ "day_utc": "2026-06-28",
+ "fills": [
+  {
+   "closedPnl": "3.774",
+   "coin": "TRUMP",
+   "crossed": true,
+   "dir": "Close Short",
+   "fee": "0.010055",
+   "feeToken": "USDC",
+   "hash": "0x993198f2edcdf9ee9aab043ebf8ef1019f00b0d888c118c03cfa4445acc1d3d9",
+   "oid": 481798369037,
+   "px": "1.6431",
+   "side": "B",
+   "startPosition": "-13.6",
+   "sz": "13.6",
+   "tid": 857523363683548,
+   "time": 1782651023868,
+   "twapId": null
+  }
+ ],
+ "funding": [
+  {
+   "delta": {
+    "coin": "TRUMP",
+    "fundingRate": "-0.0000988323",
+    "nSamples": null,
+    "szi": "-13.6",
+    "type": "funding",
+    "usdc": "-0.002222"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1782604800067
+  },
+  {
+   "delta": {
+    "coin": "TRUMP",
+    "fundingRate": "-0.0001184585",
+    "nSamples": null,
+    "szi": "-13.6",
+    "type": "funding",
+    "usdc": "-0.002675"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1782608400011
+  },
+  {
+   "delta": {
+    "coin": "TRUMP",
+    "fundingRate": "-0.0001092505",
+    "nSamples": null,
+    "szi": "-13.6",
+    "type": "funding",
+    "usdc": "-0.00247"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1782612000060
+  },
+  {
+   "delta": {
+    "coin": "TRUMP",
+    "fundingRate": "-0.0001125485",
+    "nSamples": null,
+    "szi": "-13.6",
+    "type": "funding",
+    "usdc": "-0.00254"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1782615600023
+  },
+  {
+   "delta": {
+    "coin": "TRUMP",
+    "fundingRate": "-0.0000852976",
+    "nSamples": null,
+    "szi": "-13.6",
+    "type": "funding",
+    "usdc": "-0.001931"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1782619200024
+  },
+  {
+   "delta": {
+    "coin": "TRUMP",
+    "fundingRate": "-0.0000922923",
+    "nSamples": null,
+    "szi": "-13.6",
+    "type": "funding",
+    "usdc": "-0.002084"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1782622800062
+  },
+  {
+   "delta": {
+    "coin": "TRUMP",
+    "fundingRate": "-0.0000985689",
+    "nSamples": null,
+    "szi": "-13.6",
+    "type": "funding",
+    "usdc": "-0.002218"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1782626400048
+  },
+  {
+   "delta": {
+    "coin": "TRUMP",
+    "fundingRate": "-0.0000882219",
+    "nSamples": null,
+    "szi": "-13.6",
+    "type": "funding",
+    "usdc": "-0.001978"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1782630000131
+  },
+  {
+   "delta": {
+    "coin": "TRUMP",
+    "fundingRate": "-0.0000815067",
+    "nSamples": null,
+    "szi": "-13.6",
+    "type": "funding",
+    "usdc": "-0.001828"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1782633600007
+  },
+  {
+   "delta": {
+    "coin": "TRUMP",
+    "fundingRate": "-0.0000787646",
+    "nSamples": null,
+    "szi": "-13.6",
+    "type": "funding",
+    "usdc": "-0.001777"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1782637200030
+  },
+  {
+   "delta": {
+    "coin": "TRUMP",
+    "fundingRate": "-0.0000839384",
+    "nSamples": null,
+    "szi": "-13.6",
+    "type": "funding",
+    "usdc": "-0.001885"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1782640800008
+  },
+  {
+   "delta": {
+    "coin": "TRUMP",
+    "fundingRate": "-0.0001110144",
+    "nSamples": null,
+    "szi": "-13.6",
+    "type": "funding",
+    "usdc": "-0.002487"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1782644400056
+  },
+  {
+   "delta": {
+    "coin": "TRUMP",
+    "fundingRate": "-0.0001466777",
+    "nSamples": null,
+    "szi": "-13.6",
+    "type": "funding",
+    "usdc": "-0.003296"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1782648000000
+  }
+ ],
+ "generated_at": "2026-06-29T00:10:00Z",
+ "ledger_updates": [],
+ "schema": "combo_g_trackrecord.daily_export.v1",
+ "source": "api.hyperliquid.xyz/info (public, read-only)",
+ "window_ms": [
+  1782604800000,
+  1782691200000
+ ]
+}

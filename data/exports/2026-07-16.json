@@ -1,0 +1,122 @@
+{
+ "account": "0xD2725bfEC6C67b3ef943550DE1d947959Ea1B05E",
+ "counts": {
+  "fills": 1,
+  "funding": 7,
+  "ledger": 0
+ },
+ "day_utc": "2026-07-16",
+ "fills": [
+  {
+   "closedPnl": "0.0",
+   "coin": "PUMP",
+   "crossed": true,
+   "dir": "Open Short",
+   "fee": "0.011909",
+   "feeToken": "USDC",
+   "hash": "0x1b3e1c15b12c9b831cb7044011f52502024100fb4c2fba55bf06c7687020756d",
+   "oid": 497155328981,
+   "px": "0.001722",
+   "side": "A",
+   "startPosition": "0.0",
+   "sz": "15369.0",
+   "tid": 964384027983346,
+   "time": 1784218100313,
+   "twapId": null
+  }
+ ],
+ "funding": [
+  {
+   "delta": {
+    "coin": "PUMP",
+    "fundingRate": "0.000031912",
+    "nSamples": null,
+    "szi": "-15369.0",
+    "type": "funding",
+    "usdc": "0.000855"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1784221200000
+  },
+  {
+   "delta": {
+    "coin": "PUMP",
+    "fundingRate": "0.0000125",
+    "nSamples": null,
+    "szi": "-15369.0",
+    "type": "funding",
+    "usdc": "0.000327"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1784224800011
+  },
+  {
+   "delta": {
+    "coin": "PUMP",
+    "fundingRate": "0.0000125",
+    "nSamples": null,
+    "szi": "-15369.0",
+    "type": "funding",
+    "usdc": "0.000335"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1784228400031
+  },
+  {
+   "delta": {
+    "coin": "PUMP",
+    "fundingRate": "0.0000125",
+    "nSamples": null,
+    "szi": "-15369.0",
+    "type": "funding",
+    "usdc": "0.000333"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1784232000030
+  },
+  {
+   "delta": {
+    "coin": "PUMP",
+    "fundingRate": "0.0000125",
+    "nSamples": null,
+    "szi": "-15369.0",
+    "type": "funding",
+    "usdc": "0.000336"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1784235600011
+  },
+  {
+   "delta": {
+    "coin": "PUMP",
+    "fundingRate": "0.0000125",
+    "nSamples": null,
+    "szi": "-15369.0",
+    "type": "funding",
+    "usdc": "0.000335"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1784239200008
+  },
+  {
+   "delta": {
+    "coin": "PUMP",
+    "fundingRate": "0.0000125",
+    "nSamples": null,
+    "szi": "-15369.0",
+    "type": "funding",
+    "usdc": "0.000326"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1784242800017
+  }
+ ],
+ "generated_at": "2026-07-17T00:10:31Z",
+ "ledger_updates": [],
+ "schema": "combo_g_trackrecord.daily_export.v1",
+ "source": "api.hyperliquid.xyz/info (public, read-only)",
+ "window_ms": [
+  1784160000000,
+  1784246400000
+ ]
+}

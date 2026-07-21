@@ -1,0 +1,158 @@
+{
+ "account": "0xD2725bfEC6C67b3ef943550DE1d947959Ea1B05E",
+ "counts": {
+  "fills": 1,
+  "funding": 10,
+  "ledger": 0
+ },
+ "day_utc": "2026-06-09",
+ "fills": [
+  {
+   "closedPnl": "0.0",
+   "coin": "ENA",
+   "crossed": true,
+   "dir": "Open Short",
+   "fee": "0.011838",
+   "feeToken": "USDC",
+   "hash": "0xfdbb3d268c7a5771ff34043d53fb60020a57000c277d7644a183e8794b7e315c",
+   "oid": 463638524969,
+   "px": "0.082992",
+   "side": "A",
+   "startPosition": "0.0",
+   "sz": "317.0",
+   "tid": 99915358120592,
+   "time": 1781012411968,
+   "twapId": null
+  }
+ ],
+ "funding": [
+  {
+   "delta": {
+    "coin": "ENA",
+    "fundingRate": "0.0000125",
+    "nSamples": null,
+    "szi": "-317.0",
+    "type": "funding",
+    "usdc": "0.000329"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1781013600014
+  },
+  {
+   "delta": {
+    "coin": "ENA",
+    "fundingRate": "0.0000125",
+    "nSamples": null,
+    "szi": "-317.0",
+    "type": "funding",
+    "usdc": "0.000329"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1781017200029
+  },
+  {
+   "delta": {
+    "coin": "ENA",
+    "fundingRate": "0.0000125",
+    "nSamples": null,
+    "szi": "-317.0",
+    "type": "funding",
+    "usdc": "0.000317"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1781020800059
+  },
+  {
+   "delta": {
+    "coin": "ENA",
+    "fundingRate": "0.0000125",
+    "nSamples": null,
+    "szi": "-317.0",
+    "type": "funding",
+    "usdc": "0.000311"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1781024400048
+  },
+  {
+   "delta": {
+    "coin": "ENA",
+    "fundingRate": "0.0000125",
+    "nSamples": null,
+    "szi": "-317.0",
+    "type": "funding",
+    "usdc": "0.000319"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1781028000032
+  },
+  {
+   "delta": {
+    "coin": "ENA",
+    "fundingRate": "0.0000125",
+    "nSamples": null,
+    "szi": "-317.0",
+    "type": "funding",
+    "usdc": "0.000323"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1781031600014
+  },
+  {
+   "delta": {
+    "coin": "ENA",
+    "fundingRate": "0.0000125",
+    "nSamples": null,
+    "szi": "-317.0",
+    "type": "funding",
+    "usdc": "0.000322"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1781035200045
+  },
+  {
+   "delta": {
+    "coin": "ENA",
+    "fundingRate": "0.0000125",
+    "nSamples": null,
+    "szi": "-317.0",
+    "type": "funding",
+    "usdc": "0.000327"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1781038800056
+  },
+  {
+   "delta": {
+    "coin": "ENA",
+    "fundingRate": "0.0000125",
+    "nSamples": null,
+    "szi": "-317.0",
+    "type": "funding",
+    "usdc": "0.000321"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1781042400063
+  },
+  {
+   "delta": {
+    "coin": "ENA",
+    "fundingRate": "0.0000125",
+    "nSamples": null,
+    "szi": "-317.0",
+    "type": "funding",
+    "usdc": "0.000317"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1781046000059
+  }
+ ],
+ "generated_at": "2026-06-10T16:53:42Z",
+ "ledger_updates": [],
+ "schema": "combo_g_trackrecord.daily_export.v1",
+ "source": "api.hyperliquid.xyz/info (public, read-only)",
+ "window_ms": [
+  1780963200000,
+  1781049600000
+ ]
+}

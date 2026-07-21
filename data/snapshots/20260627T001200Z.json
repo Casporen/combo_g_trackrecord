@@ -1,0 +1,114 @@
+{
+ "account": "0xD2725bfEC6C67b3ef943550DE1d947959Ea1B05E",
+ "clearinghouse_state": {
+  "assetPositions": [
+   {
+    "position": {
+     "coin": "TRUMP",
+     "cumFunding": {
+      "allTime": "0.19381",
+      "sinceChange": "0.19381",
+      "sinceOpen": "0.19381"
+     },
+     "entryPx": "1.9206",
+     "leverage": {
+      "rawUsd": "52.034757",
+      "type": "isolated",
+      "value": 1
+     },
+     "liquidationPx": "3.6438905462",
+     "marginUsed": "28.782837",
+     "maxLeverage": 10,
+     "positionValue": "23.25192",
+     "returnOnEquity": "0.1098094346",
+     "szi": "-13.6",
+     "unrealizedPnl": "2.86824"
+    },
+    "type": "oneWay"
+   }
+  ],
+  "crossMaintenanceMarginUsed": "0.0",
+  "crossMarginSummary": {
+   "accountValue": "0.0",
+   "totalMarginUsed": "0.0",
+   "totalNtlPos": "0.0",
+   "totalRawUsd": "0.0"
+  },
+  "marginSummary": {
+   "accountValue": "28.782837",
+   "totalMarginUsed": "28.782837",
+   "totalNtlPos": "23.25192",
+   "totalRawUsd": "52.034757"
+  },
+  "time": 1782519121261,
+  "withdrawable": "0.0"
+ },
+ "equity_usd": 749.257295,
+ "generated_at": "2026-06-27T00:12:00Z",
+ "n_open_positions": 1,
+ "perp_account_value": 28.782837,
+ "portfolio_alltime_tail": [
+  [
+   1782394440087,
+   "749.640858"
+  ],
+  [
+   1782426840065,
+   "750.305775"
+  ],
+  [
+   1782466440039,
+   "749.640228"
+  ],
+  [
+   1782506040018,
+   "749.51887"
+  ],
+  [
+   1782519121789,
+   "749.257295"
+  ]
+ ],
+ "schema": "combo_g_trackrecord.snapshot.v1",
+ "spot_state": {
+  "balances": [
+   {
+    "coin": "USDC",
+    "entryNtl": "0.0",
+    "hold": "28.782837",
+    "token": 0,
+    "total": "749.257295"
+   },
+   {
+    "coin": "USDE",
+    "entryNtl": "0.0",
+    "hold": "0.0",
+    "token": 235,
+    "total": "0.0"
+   },
+   {
+    "coin": "USDT0",
+    "entryNtl": "0.0",
+    "hold": "0.0",
+    "token": 268,
+    "total": "0.0"
+   },
+   {
+    "coin": "USDH",
+    "entryNtl": "0.0",
+    "hold": "0.0",
+    "token": 360,
+    "total": "0.0"
+   }
+  ],
+  "tokenToAvailableAfterMaintenance": [
+   [
+    0,
+    "720.474458"
+   ]
+  ]
+ },
+ "spot_usdc_hold": 28.782837,
+ "spot_usdc_total": 749.257295,
+ "unrealized_pnl": 2.86824
+}

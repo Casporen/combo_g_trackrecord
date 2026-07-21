@@ -1,0 +1,134 @@
+{
+ "account": "0xD2725bfEC6C67b3ef943550DE1d947959Ea1B05E",
+ "counts": {
+  "fills": 1,
+  "funding": 8,
+  "ledger": 0
+ },
+ "day_utc": "2026-07-01",
+ "fills": [
+  {
+   "closedPnl": "0.0",
+   "coin": "VVV",
+   "crossed": true,
+   "dir": "Open Short",
+   "fee": "0.011834",
+   "feeToken": "USDC",
+   "hash": "0xddb87da3d5b90e87df32043efac746020a0d008970bc2d59818128f694bce872",
+   "oid": 484837836256,
+   "px": "13.841",
+   "side": "A",
+   "startPosition": "0.0",
+   "sz": "1.9",
+   "tid": 827821424734573,
+   "time": 1782919318438,
+   "twapId": null
+  }
+ ],
+ "funding": [
+  {
+   "delta": {
+    "coin": "VVV",
+    "fundingRate": "0.0000336416",
+    "nSamples": null,
+    "szi": "-1.9",
+    "type": "funding",
+    "usdc": "0.000914"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1782921600045
+  },
+  {
+   "delta": {
+    "coin": "VVV",
+    "fundingRate": "0.0000754357",
+    "nSamples": null,
+    "szi": "-1.9",
+    "type": "funding",
+    "usdc": "0.002079"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1782925200022
+  },
+  {
+   "delta": {
+    "coin": "VVV",
+    "fundingRate": "0.0000125",
+    "nSamples": null,
+    "szi": "-1.9",
+    "type": "funding",
+    "usdc": "0.000339"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1782928800061
+  },
+  {
+   "delta": {
+    "coin": "VVV",
+    "fundingRate": "0.0000125",
+    "nSamples": null,
+    "szi": "-1.9",
+    "type": "funding",
+    "usdc": "0.000324"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1782932400036
+  },
+  {
+   "delta": {
+    "coin": "VVV",
+    "fundingRate": "0.0000125",
+    "nSamples": null,
+    "szi": "-1.9",
+    "type": "funding",
+    "usdc": "0.000321"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1782936000005
+  },
+  {
+   "delta": {
+    "coin": "VVV",
+    "fundingRate": "0.0000125",
+    "nSamples": null,
+    "szi": "-1.9",
+    "type": "funding",
+    "usdc": "0.000319"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1782939600007
+  },
+  {
+   "delta": {
+    "coin": "VVV",
+    "fundingRate": "0.0000125",
+    "nSamples": null,
+    "szi": "-1.9",
+    "type": "funding",
+    "usdc": "0.000322"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1782943200086
+  },
+  {
+   "delta": {
+    "coin": "VVV",
+    "fundingRate": "0.0000125",
+    "nSamples": null,
+    "szi": "-1.9",
+    "type": "funding",
+    "usdc": "0.000322"
+   },
+   "hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "time": 1782946800056
+  }
+ ],
+ "generated_at": "2026-07-02T00:10:30Z",
+ "ledger_updates": [],
+ "schema": "combo_g_trackrecord.daily_export.v1",
+ "source": "api.hyperliquid.xyz/info (public, read-only)",
+ "window_ms": [
+  1782864000000,
+  1782950400000
+ ]
+}

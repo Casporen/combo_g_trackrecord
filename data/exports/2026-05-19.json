@@ -1,0 +1,28 @@
+{
+ "account": "0xD2725bfEC6C67b3ef943550DE1d947959Ea1B05E",
+ "counts": {
+  "fills": 0,
+  "funding": 0,
+  "ledger": 1
+ },
+ "day_utc": "2026-05-19",
+ "fills": [],
+ "funding": [],
+ "generated_at": "2026-06-10T16:53:42Z",
+ "ledger_updates": [
+  {
+   "delta": {
+    "type": "deposit",
+    "usdc": "749.32"
+   },
+   "hash": "0x0b2bb8790ba8da511a8709d5534a32574337c64c892ec361182513aaf4b89259",
+   "time": 1779197292837
+  }
+ ],
+ "schema": "combo_g_trackrecord.daily_export.v1",
+ "source": "api.hyperliquid.xyz/info (public, read-only)",
+ "window_ms": [
+  1779148800000,
+  1779235200000
+ ]
+}
