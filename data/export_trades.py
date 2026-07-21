@@ -249,7 +249,7 @@ def main():
             print(f"\n⚠️ {dated.name} exists with DIFFERENT content — NOT rewritten (immutability). "
                   f"Today's snapshot is already pinned; same-day new trades will be captured in the next dated one.")
     else:
-        dated.write_text(blob, encoding="utf-8")
+        dated.write_text(blob, encoding="utf-8", newline="\n")
         print(f"\n+ {dated.name}  ({len(doc['trades'])} round-trips) — dated immutable snapshot")
         append_sums(dated)
 
