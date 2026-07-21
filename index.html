@@ -8,6 +8,10 @@
 <title>Casporen — combo_G live track record</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%230f9d75'/%3E%3Cpath d='M28 64 L46 46 L57 56 L73 36' stroke='white' stroke-width='9' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <style>
+@font-face{font-family:"IBM Plex Mono";font-style:normal;font-weight:400;font-display:swap;
+  src:url(fonts/ibm-plex-mono-400.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Mono";font-style:normal;font-weight:600;font-display:swap;
+  src:url(fonts/ibm-plex-mono-600.woff2) format("woff2")}
 :root{
   --ink:#14201d;--ink2:#33433e;--mut:#68766f;--line:#d9e0dd;--grid:#e8edeb;
   --bg:#ffffff;--card:#f7f9f8;--accent:#0f9d75;--accent-soft:#eef4f1;--neg:#d23f27;
@@ -21,11 +25,12 @@
 *{box-sizing:border-box;border-radius:0}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);
-  font:13.5px/1.65 ui-monospace,"SF Mono","JetBrains Mono","IBM Plex Mono",Menlo,Consolas,monospace;
+  font:13.5px/1.65 "IBM Plex Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;
   font-variant-numeric:tabular-nums}
+b,strong{font-weight:600}
 .wrap{max-width:720px;margin:0;padding:48px 22px 80px}
 @media (min-width:900px){.wrap{margin-left:calc(50vw - 450px)}}
-h1{font-size:21px;margin:0 0 8px;letter-spacing:-.2px;display:flex;align-items:center;gap:10px;font-weight:700}
+h1{font-size:21px;margin:0 0 8px;letter-spacing:-.2px;display:flex;align-items:center;gap:10px;font-weight:600}
 h2{font-size:12px;text-transform:uppercase;letter-spacing:1.6px;color:var(--mut);
   margin:54px 0 16px;border-bottom:1px solid var(--line);padding-bottom:8px;font-weight:600}
 .sub{color:var(--ink2);margin:0 0 6px}
@@ -34,7 +39,7 @@ h2{font-size:12px;text-transform:uppercase;letter-spacing:1.6px;color:var(--mut)
 a{color:var(--accent);text-decoration:none}
 a:hover{text-decoration:underline}
 .tag{display:inline-flex;align-items:center;gap:7px;font-size:10.5px;background:var(--accent-soft);
-  color:var(--accent);padding:3px 9px;font-weight:700;letter-spacing:1px}
+  color:var(--accent);padding:3px 9px;font-weight:600;letter-spacing:1px}
 .tag::before{content:"";width:6px;height:6px;background:var(--accent);
   animation:pulse 2.4s ease-in-out infinite}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
@@ -52,7 +57,7 @@ a:hover{text-decoration:underline}
 .tip{position:absolute;pointer-events:none;background:var(--bg);border:1px solid var(--line);
   padding:8px 11px;font-size:12px;display:none;min-width:128px;z-index:2}
 .tip .d{color:var(--mut);font-size:11px}
-.tip .v{font-size:15px;font-weight:700;margin:2px 0 1px}
+.tip .v{font-size:15px;font-weight:600;margin:2px 0 1px}
 .tip .r{font-size:12px;font-weight:600}
 
 /* trades table — untouched register (the reference for the whole page) */
@@ -68,7 +73,7 @@ tbody tr:hover{background:var(--card)}
 .note{border-top:1px solid var(--line);padding:12px 0 0;color:var(--ink2);font-size:13px;margin:18px 0}
 .vrow{padding:14px 0;border-bottom:1px solid var(--line)}
 .vrow .lab{font-size:11px;text-transform:uppercase;letter-spacing:.8px;color:var(--mut)}
-.vrow .big{font-size:15.5px;font-weight:700;margin:3px 0}
+.vrow .big{font-size:15.5px;font-weight:600;margin:3px 0}
 .vrow .meta{color:var(--mut);font-size:12.5px}
 .grave{font-size:13px;padding-left:20px}.grave li{margin:8px 0;color:var(--ink2)}.grave b{color:var(--ink)}
 footer{margin-top:64px;color:var(--mut);font-size:12px;border-top:1px solid var(--line);padding-top:18px}
