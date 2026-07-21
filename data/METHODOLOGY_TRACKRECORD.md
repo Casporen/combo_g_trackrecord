@@ -2,8 +2,8 @@
 
 ## Scope
 - **Account**: `0xD2725bfEC6C67b3ef943550DE1d947959Ea1B05E` (HyperLiquid mainnet), account
-  DEDICATED to the combo_G strategy (short mean-reversion on alt pumps, signal frozen
-  2026-05-05). No other activity on this account.
+  DEDICATED to the combo_G strategy (signal frozen 2026-05-05). No other activity on
+  this account.
 - **Inception**: 2026-05-19 (single deposit of $749.32 USDC). No other external flow to date.
 - **Reference capital**: the account's NAV. Returns are time-weighted (TWR),
   hence insensitive to future deposits/withdrawals.

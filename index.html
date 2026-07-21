@@ -88,7 +88,7 @@ footer{margin-top:64px;color:var(--mut);font-size:12px;border-top:1px solid var(
 <div class="wrap">
 
 <h1>combo_G <span class="tag">LIVE</span></h1>
-<p class="sub">Systematic short-term mean-reversion on HyperLiquid perpetuals — run by <b>Casporen</b>.</p>
+<p class="sub">A systematic strategy trading HyperLiquid perpetuals — run by <b>Casporen</b>.</p>
 <p class="sub">Every figure below is either <b>on-chain verifiable</b> or a pre-registered out-of-sample test.</p>
 <p class="addr">on-chain account&nbsp;: <a id="explorer" target="_blank" rel="noopener">0xD2725bfEC6C67b3ef943550DE1d947959Ea1B05E</a></p>
 
@@ -101,7 +101,7 @@ footer{margin-top:64px;color:var(--mut);font-size:12px;border-top:1px solid var(
 <p class="muted" style="font-size:11.5px;margin:6px 2px 0">Daily NAV indexed to 100 at inception, net of all fees &amp; funding · hover or use ←/→ for exact values · <a href="https://github.com/Casporen/combo_g_trackrecord">raw data &amp; verification</a></p>
 <p class="note" id="livenote"></p>
 <div class="tablewrap">
-<table id="trades"><thead><tr><th>Trade</th><th>Side</th><th>Entry</th><th>Exit</th><th>Hold</th><th>Return</th></tr></thead><tbody></tbody></table>
+<table id="trades"><thead><tr><th>Trade</th><th>Side</th><th>Entry</th><th>Exit</th><th>Return</th></tr></thead><tbody></tbody></table>
 </div>
 <p class="sub muted" style="font-size:12px;margin-top:10px">Returns are per-position on-chain results (price P&amp;L net of funding &amp; fees), reconstructable from the public fills of the account above. Per-trade returns are measured on position notional; NAV impact depends on position sizing relative to account equity — small sizing is deliberate at this stage.</p>
 
@@ -129,7 +129,7 @@ footer{margin-top:64px;color:var(--mut);font-size:12px;border-top:1px solid var(
 <li><b>Anti-leakage IS/OOS split.</b> A hard date cut separates the discovery period from the frozen out-of-sample window. The OOS window is evaluated once.</li>
 <li><b>Significance.</b> Permutation and bootstrap, plus a heteroskedasticity-robust regression that decomposes the raw return into market-beta and residual alpha — so the edge is the part that is <i>not</i> just market exposure.</li>
 <li><b>Costs.</b> Fees, funding and a conservative slippage are charged to every trade.</li>
-<li><b>What is not shown.</b> The entry signal — features, thresholds, ranking — is not published. Position-management parameters visible in the trade log (e.g. the holding cap) are considered acceptable disclosure: the track record proves <i>results</i>, not the recipe.</li>
+<li><b>What is not shown.</b> The entry signal — features, thresholds, ranking — is not published. What the public fills necessarily reveal (each position's entries and exits) is accepted disclosure: the track record proves <i>results</i>, not the recipe.</li>
 </ul>
 
 <h2>Graveyard — tested &amp; discarded</h2>
@@ -185,7 +185,7 @@ function render(nav,trades){
   const tb=document.querySelector('#trades tbody');tb.replaceChildren();
   for(const t of trades){
     const tr=document.createElement('tr');
-    const cells=[[t.coin],[t.direction],[t.entry_ts.slice(0,10)],[t.exit_ts.slice(0,10)],[Math.round(t.duration_h)+'h']];
+    const cells=[[t.coin],[t.direction],[t.entry_ts.slice(0,10)],[t.exit_ts.slice(0,10)]];
     for(const [c] of cells){const td=document.createElement('td');td.textContent=c;tr.appendChild(td)}
     const td=document.createElement('td');td.appendChild(pctHTML(t.return_pct));tr.appendChild(td);
     tb.appendChild(tr);
