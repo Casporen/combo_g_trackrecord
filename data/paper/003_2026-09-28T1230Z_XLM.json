@@ -1,0 +1,14 @@
+{
+  "n": 3,
+  "signal_ts_utc": "2026-09-28T12:30:00Z",
+  "coin": "XLM",
+  "side": "SHORT",
+  "reference_price": 0.22888,
+  "fill_model": "filled at the signal reference price (zero slippage); a 1.21% round-trip cost is deducted from the result",
+  "logged": "after the fact",
+  "status": "closed",
+  "exit_ts_utc": "2026-10-05T12:30:00Z",
+  "exit_price": 0.22082,
+  "exit_reason": "time exit (7 days)",
+  "result_pct_net_of_model_costs": 2.31
+}

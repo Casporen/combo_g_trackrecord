@@ -1,0 +1,14 @@
+{
+  "n": 6,
+  "signal_ts_utc": "2026-10-01T03:15:00Z",
+  "coin": "TRUMP",
+  "side": "SHORT",
+  "reference_price": 2.175,
+  "fill_model": "filled at the signal reference price (zero slippage); a 1.21% round-trip cost is deducted from the result",
+  "logged": "after the fact",
+  "status": "open",
+  "exit_ts_utc": null,
+  "exit_price": null,
+  "exit_reason": null,
+  "result_pct_net_of_model_costs": null
+}

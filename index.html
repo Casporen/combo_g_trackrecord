@@ -37,6 +37,8 @@ h2{font-size:12px;text-transform:uppercase;letter-spacing:1.6px;color:var(--mut)
 .addr{font-size:12px;color:var(--mut);word-break:break-all;margin-top:12px}
 a{color:var(--accent);text-decoration:none}
 a:hover{text-decoration:underline}
+.status{font-size:12.5px;line-height:1.6;color:var(--ink);background:var(--card);border:1px solid var(--line);border-left:3px solid var(--mut);padding:10px 14px;margin:0 0 22px}
+.status b{letter-spacing:1px}
 .tag{display:inline-flex;align-items:center;gap:7px;font-size:10.5px;background:var(--accent-soft);
   color:var(--accent);padding:3px 9px;font-weight:600;letter-spacing:1px}
 .tag::before{content:"";width:6px;height:6px;background:var(--accent);
@@ -86,7 +88,8 @@ footer{margin-top:64px;color:var(--mut);font-size:12px;border-top:1px solid var(
 <body>
 <div class="wrap">
 
-<h1>combo_G <span class="tag">LIVE</span></h1>
+<p class="status" role="status"><b>EXECUTION PAUSED</b> since 2026-07-20 — signing key no longer available. Live series frozen (n = 6 closed trades, 22 May → 20 Jul 2026). Engine running on paper since 2026-09-21; paper results <a href="https://github.com/Casporen/combo_g_trackrecord/tree/main/data/paper">reported separately</a> and never merged into the live series.</p>
+<h1>combo_G</h1>
 <p class="sub">A systematic strategy trading HyperLiquid perpetuals — run by <b>Casporen</b>.</p>
 <p class="sub">Every figure below is either <b>on-chain verifiable</b> or a pre-registered out-of-sample test.</p>
 <p class="addr">on-chain account&nbsp;: <a id="explorer" target="_blank" rel="noopener">0xD2725bfEC6C67b3ef943550DE1d947959Ea1B05E</a></p>

@@ -1,5 +1,7 @@
 # combo_G — live track record
 
+> **Status:** EXECUTION PAUSED since 2026-07-20 — signing key no longer available. Live series frozen (n = 6 closed trades, 22 May → 20 Jul 2026). Engine running on paper since 2026-09-21; paper results reported separately and never merged into the live series.
+
 Verifiable, tamper-evident archive of the live trading account of the **combo_G**
 strategy on HyperLiquid, plus the static site that renders it (GitHub Pages, repo root).
 
@@ -10,7 +12,7 @@ on-chain public; no keys, no private data, no contact with any trading engine).
 |---|---|
 | Static site (what you're seeing on Pages) | `index.html` |
 | Full methodology (1 page) | `data/METHODOLOGY_TRACKRECORD.md` |
-| Immutable daily exports (fills, funding, ledger) | `data/exports/YYYY-MM-DD.json` |
+| Immutable daily exports (fills, funding, deposits & withdrawals) | `data/exports/YYYY-MM-DD.json` |
 | State snapshots (equity, positions) | `data/snapshots/` |
 | Daily NAV series, net of all fees + TWR | `data/nav/nav_daily.csv` |
 | Timestamped trade log (round-trips) | `data/exports/trades-YYYY-MM-DD.json` |

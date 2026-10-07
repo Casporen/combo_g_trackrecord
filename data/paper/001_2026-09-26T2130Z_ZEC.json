@@ -1,0 +1,14 @@
+{
+  "n": 1,
+  "signal_ts_utc": "2026-09-26T21:30:00Z",
+  "coin": "ZEC",
+  "side": "SHORT",
+  "reference_price": 1673.06,
+  "fill_model": "filled at the signal reference price (zero slippage); a 1.21% round-trip cost is deducted from the result",
+  "logged": "after the fact",
+  "status": "closed",
+  "exit_ts_utc": "2026-10-03T21:30:00Z",
+  "exit_price": 1313.36,
+  "exit_reason": "time exit (7 days)",
+  "result_pct_net_of_model_costs": 20.29
+}

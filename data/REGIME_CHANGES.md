@@ -9,6 +9,8 @@
 | 2026-06-09 | Fix of a realized-PnL double-count at position close + SL price rounding | capital/peak correct after closes; no per-trade % impact |
 | 2026-06-10 | Reconcile guard against transient API glitches (implausible equity reads ignored) | removes phantom capital jumps from the series |
 | 2026-06-11 | **Sizing on FREE SPOT cash** (spot total − hold) instead of total equity (+uPnL) | position sizes ≤ before whenever uPnL>0 or positions open → **lower daily NAV vol from 06-11 onward**; per-trade % return unchanged (the MinTRL validation unit is quasi-immune) |
+| 2026-07-20 | Execution halted — signing key unavailable. No fills after this date. | live series frozen: NAV flat from this date |
+| 2026-09-21 | Paper mode started (signals logged, no execution). | none on the live series; paper results kept separately in `data/paper/` |
 
 Note: the reporting/drawdown equity figure remains `spot_total + upnl` (operator choice,
 06-11) — known bias, tripwire: revisit if |uPnL| > 5% of capital or before scaling.
